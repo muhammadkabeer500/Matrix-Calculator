@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="bodyContainar">
+
+    <h1>Matrix Calculator</h1>
+
+    <div>
+        <label for="matrix-size">Enter Matrix Size:</label>
+        <input type="number" id="matrix-size" placeholder="Enter" min="1" max="5">
+        <button onclick="generateMatrices()">Generate Matrices</button>
+    </div>
+
+    <div class="matrix-container" id="matrix-container"></div>
+
+    <div>
+        <label for="operation">Select Operation:</label>
+        <select id="operation">
+            <option value="add">Add</option>
+            <option value="add">Sub</option>
+            <option value="add">Mul</option>
+        </select>
+        <button onclick="performAddition()">Result</button>
+    </div>
+
+    <div id="result-container"></div>
+
+</div>
+<footer>
+    <h5><a href="https://github.com/muhammadkabeer500" target="_blank">@ Muhammad Kabeer</a></h5>
+</footer>   
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
