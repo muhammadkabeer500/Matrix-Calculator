@@ -9,7 +9,7 @@ body {
     justify-content: center;
     height: 100vh;
     color: black;
-    background: linear-gradient(135deg, #252525, rgb(158, 158, 158));
+    background: linear-gradient(135deg, #221f1f, rgb(155, 69, 69));
     text-decoration: black;
     font-weight: bolder;
     text-align: center;
@@ -108,14 +108,15 @@ select, input[type="number"] {
 
 }
 footer {
-    min-height: 65px;
+    /* min-height: 50px; */
     width: 100vw;
     background-color: #222222;
     position: fixed;
     bottom: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
+    height: 5vh;
 }
 
 footer>h5>a {
